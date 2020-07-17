@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    background-color: #222629;
+}
+/* Removes whitespace around hero image */
+* {
+    margin: 0;
+}
+
+
+.hero-image {
+    background-image: url("Images/HeroImg.jpg");
+  
+    /* Set a specific height */
+    height: 20%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    border-bottom: 5px solid white;
+  }
+
+  .offer {
+      background-image: url("Images/Offer.jpg");
+
+      height: 50%;
+      width: 100%;
+
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      background-size: cover;
+  }
+
+  .menu {
+    display: inline-flex;
+  }
+  .menu-left {
+    width: 40%;
+}
+  .menu-right {
+    width: 60%;
+    float: right;
+}
+
+  h1 {
+      padding-top: 40px;
+      padding-left: 20px;
+      font-family: 'Source Code Pro', monospace;
+      color: white;
+      text-align: left;
+      font-size: 50px;
+  }
+  h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+  p {
+    padding-left: 20px;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+.footer {
+  height: 10%;
+  width: 100%;
+
+  background-color: royalblue;
+  display: block;
+}
