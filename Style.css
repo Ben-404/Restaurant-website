@@ -26,26 +26,18 @@ body, html {
   .offer {
       background-image: url("Images/Offer.jpg");
 
-      height: 50%;
-      width: 100%;
+    /* Set a specific height */
+    height: 60%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
-      /* Position and center the image to scale nicely on all screens */
-      background-position: center;
-      background-repeat: no-repeat;
-      position: relative;
-      background-size: cover;
+    border-bottom: 5px solid white;
   }
 
-  .menu {
-    display: inline-flex;
-  }
-  .menu-left {
-    width: 40%;
-}
-  .menu-right {
-    width: 60%;
-    float: right;
-}
 
   h1 {
       padding-top: 40px;
@@ -61,8 +53,15 @@ body, html {
     font-family: 'Source Code Pro', monospace;
     color: white;
     text-align: left;
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: 25px;
+}
+h3 {
+  padding-left: 20px;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  padding-bottom: 10px;
 }
 
   p {
@@ -73,10 +72,53 @@ body, html {
     font-size: 20px;
 }
 
+
+#menu {
+  font-family: 'Source Code Pro', monospace;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#menu td, #menu th {
+  padding: 8px;
+  color: white;
+}
+
+#menu th {
+  font-size: 25px;
+  padding-top: 35px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+
+.contact {
+  width: 30%;
+}
+.map {
+  width: 70%;
+}
+
+
 .footer {
-  height: 10%;
+  height: 15%;
   width: 100%;
 
-  background-color: royalblue;
+  border-top: 5px solid white;
+  background-color: #FF7701;
   display: block;
 }
