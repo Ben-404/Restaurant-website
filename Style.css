@@ -99,6 +99,7 @@ h3 {
 
 .flex-child {
   flex: 1;
+  padding-bottom: 70px;
 }  
 
 .flex-child:first-child {
@@ -115,7 +116,7 @@ h3 {
 
 
 .footer {
-  height: 15%;
+  height: 8%;
   width: 100%;
 
   border-top: 5px solid white;
